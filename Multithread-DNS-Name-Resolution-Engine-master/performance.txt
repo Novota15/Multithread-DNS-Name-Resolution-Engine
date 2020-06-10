@@ -1,0 +1,73 @@
+Performance testing with all 5 names.txt files
+
+# requestor threads: 1
+# resolver threads: 1
+total run time: 0.031423
+requestors:
+7026,1
+resolvers:
+7028,1
+
+# requestor threads: 1
+# resolver threads: 3
+total run time: 0.058073
+requestors:
+7071,1
+resolvers:
+7070,1
+7080,1
+7081,1
+
+# requestor threads: 3
+# resolver threads: 1
+total run time: 0.045321
+requestors:
+7091,1
+7093,1
+7094,1
+resolvers:
+7092,1
+
+# requestor threads: 3
+# resolver threads: 3
+total run time: 0.029104
+requestors:
+7113,1
+7115,1
+7116,1
+resolvers:
+7114,1
+7124,1
+7125,1
+
+# requestor threads: 5
+# resolver threads: 5
+total run time: 0.033344
+requestors:
+7135,1
+7137,1
+7138,1
+7150,1
+7153,1
+resolvers:
+7136,1
+7156,1
+7157,1
+7158,1
+7159,1
+
+# requestor threads: 8
+# resolver threads: 5
+total run time: 0.034089
+requestors:
+7172,1
+7173,1
+7176,1
+7178,1
+7181,1
+resolvers:
+7171,1
+7182,1
+7183,1
+7184,1
+7185,1
